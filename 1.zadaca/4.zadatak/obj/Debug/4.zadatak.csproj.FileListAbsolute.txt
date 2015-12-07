@@ -1,0 +1,6 @@
+C:\Users\MATEJ\Documents\FER\7. semestar\C#\zadace\1.-Zadaca\1.zadaca\4.zadatak\bin\Debug\4.zadatak.exe.config
+C:\Users\MATEJ\Documents\FER\7. semestar\C#\zadace\1.-Zadaca\1.zadaca\4.zadatak\bin\Debug\4.zadatak.exe
+C:\Users\MATEJ\Documents\FER\7. semestar\C#\zadace\1.-Zadaca\1.zadaca\4.zadatak\bin\Debug\4.zadatak.pdb
+C:\Users\MATEJ\Documents\FER\7. semestar\C#\zadace\1.-Zadaca\1.zadaca\4.zadatak\obj\Debug\4.zadatak.csprojResolveAssemblyReference.cache
+C:\Users\MATEJ\Documents\FER\7. semestar\C#\zadace\1.-Zadaca\1.zadaca\4.zadatak\obj\Debug\4.zadatak.exe
+C:\Users\MATEJ\Documents\FER\7. semestar\C#\zadace\1.-Zadaca\1.zadaca\4.zadatak\obj\Debug\4.zadatak.pdb
