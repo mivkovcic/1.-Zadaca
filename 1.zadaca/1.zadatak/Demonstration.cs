@@ -4,7 +4,7 @@ namespace _1.zadatak
 {
     public class Demonstration
     {
-        public static void Main(String[] args)
+        public static void Main(string[] args)
         {
             IntegerList list = new IntegerList();
             ListExample(list);

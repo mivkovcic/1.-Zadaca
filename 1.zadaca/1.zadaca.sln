@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.zadatak", "1.zadatak\1.zadatak.csproj", "{4CFFBB82-3F00-4347-8B2C-655D6B536E69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.zadatak", "2.zadatak\2.zadatak.csproj", "{05F6CB8F-337F-449F-B585-E70F64A0DBDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4CFFBB82-3F00-4347-8B2C-655D6B536E69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CFFBB82-3F00-4347-8B2C-655D6B536E69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CFFBB82-3F00-4347-8B2C-655D6B536E69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05F6CB8F-337F-449F-B585-E70F64A0DBDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05F6CB8F-337F-449F-B585-E70F64A0DBDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05F6CB8F-337F-449F-B585-E70F64A0DBDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05F6CB8F-337F-449F-B585-E70F64A0DBDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

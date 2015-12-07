@@ -1,0 +1,5 @@
+C:\Users\MATEJ\Documents\FER\7. semestar\C#\zadace\1.-Zadaca\1.zadaca\2.zadatak\bin\Debug\2.zadatak.exe.config
+C:\Users\MATEJ\Documents\FER\7. semestar\C#\zadace\1.-Zadaca\1.zadaca\2.zadatak\bin\Debug\2.zadatak.exe
+C:\Users\MATEJ\Documents\FER\7. semestar\C#\zadace\1.-Zadaca\1.zadaca\2.zadatak\bin\Debug\2.zadatak.pdb
+C:\Users\MATEJ\Documents\FER\7. semestar\C#\zadace\1.-Zadaca\1.zadaca\2.zadatak\obj\Debug\2.zadatak.exe
+C:\Users\MATEJ\Documents\FER\7. semestar\C#\zadace\1.-Zadaca\1.zadaca\2.zadatak\obj\Debug\2.zadatak.pdb

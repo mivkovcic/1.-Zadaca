@@ -1,46 +1,46 @@
 ﻿using System;
 
-namespace _1.zadatak
+namespace _2.zadatak
 {
-    public class IntegerList : IIntegerList
+    public class GenericList<X> : IGenericList<X>
     {
-        private int[] _internalStorage;
+        private X[] _internalStorage;
         private int _currentIndex;
         private int _currentSize;
 
-        public IntegerList()
+        public GenericList()
         {
-            _internalStorage = new int[4];
+            _internalStorage = new X[4];
             _currentSize = 4;
             _currentIndex = 0;
         }
 
-        public IntegerList(int initialSize)
+        public GenericList(int initialSize)
         {
-            _internalStorage = new int[initialSize];
+            _internalStorage = new X[initialSize];
             _currentSize = initialSize;
             _currentIndex = 0;
         }
 
-        public void Add(int item)
+        public void Add(X item)
         {
             if (_currentIndex == _currentSize)
             {
-                int[] tempStorage = new int[_currentSize];
+                X[] tempStorage = new X[_currentSize];
                 _internalStorage.CopyTo(tempStorage, 0);
                 _currentSize *= 2;
-                _internalStorage = new int[_currentSize];
+                _internalStorage = new X[_currentSize];
                 tempStorage.CopyTo(_internalStorage, 0);
             }
             _internalStorage[_currentIndex++] = item;
         }
 
-        public bool Remove(int item)
+        public bool Remove(X item)
         {
             int index = _currentSize;
             for (int i = 0; i < _currentSize; i++)
             {
-                if (_internalStorage[i] == item)
+                if (_internalStorage[i].Equals(item))
                 {
                     index = i;
                     break;
@@ -57,7 +57,7 @@ namespace _1.zadatak
             }
             if (index == _currentSize - 1)
             {
-                _internalStorage[index] = default(int);
+                _internalStorage[index] = default(X);
             }
             else
             {
@@ -70,7 +70,7 @@ namespace _1.zadatak
             return true;
         }
 
-        public int GetElement(int index)
+        public X GetElement(int index)
         {
             if (index < _currentSize)
             {
@@ -79,11 +79,11 @@ namespace _1.zadatak
             throw new IndexOutOfRangeException();
         }
 
-        public int IndexOf(int item)
+        public int IndexOf(X item)
         {
             for (int i = 0; i < _currentSize; i++)
             {
-                if (_internalStorage[i] == item)
+                if (_internalStorage[i].Equals(item))
                 {
                     return i;
                 }
@@ -101,21 +101,20 @@ namespace _1.zadatak
 
         public void Clear()
         {
-            _internalStorage = new int[_currentSize];
+            _internalStorage = new X[_currentSize];
             _currentIndex = 0;
         }
 
-        public bool Contains(int item)
+        public bool Contains(X item)
         {
             for (int i = 0; i < _currentSize; i++)
             {
-                if (_internalStorage[i] == item)
+                if (_internalStorage[i].Equals(item))
                 {
                     return true;
                 }
             }
             return false;
         }
-
     }
 }
