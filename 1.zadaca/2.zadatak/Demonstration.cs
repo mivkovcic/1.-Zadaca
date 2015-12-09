@@ -16,7 +16,10 @@ namespace _2.zadatak
             Console.WriteLine(stringList.GetElement(1)); // World
             IGenericList<double> doubleList = new GenericList<double>();
             doubleList.Add(0.2);
-            doubleList.Add(0.7);            Console.ReadLine();
+            doubleList.Add(0.7);
+
+            Console.ReadLine();
+
         }
     }
 }

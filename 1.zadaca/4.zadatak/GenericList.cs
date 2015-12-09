@@ -126,6 +126,7 @@ namespace _4.zadatak
         System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
         {
             return GetEnumerator();
-        }
+        }
+
     }
 }
